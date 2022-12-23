@@ -171,6 +171,7 @@ impl DateExtractor {
         let mut tzinfod = HashMap::new();
         tzinfod.insert("ET".to_string(), 14400);
         tzinfod.insert("EST".to_string(), 14400);
+        tzinfod.insert("EDT".to_string(), 14400);
         tzinfod.insert("PST".to_string(), -28800);
         tzinfod.insert("PHT".to_string(), -28800);
         tzinfod.insert("PDT".to_string(), -28800);
