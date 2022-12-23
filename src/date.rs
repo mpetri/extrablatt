@@ -170,7 +170,9 @@ impl DateExtractor {
     fn fuzzy_dtparse(s: &str) -> Option<NaiveDateTime> {
         let mut tzinfod = HashMap::new();
         tzinfod.insert("ET".to_string(), 14400);
+        tzinfod.insert("EST".to_string(), 14400);
         tzinfod.insert("PST".to_string(), -28800);
+        tzinfod.insert("PHT".to_string(), -28800);
         tzinfod.insert("PDT".to_string(), -28800);
         tzinfod.insert("IST".to_string(), 14400);
         tzinfod.insert("TZD".to_string(), 14400);
