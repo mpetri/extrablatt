@@ -180,7 +180,7 @@ impl DateExtractor {
         let parser = dtparse::Parser::default();
         parser
             .parse(
-                s, None, None, true, /* turns on fuzzy mode */
+                s, None, None, false, /* turns on fuzzy mode */
                 true, /* gives us the tokens that weren't recognized */
                 None, false, &tzinfod,
             )
