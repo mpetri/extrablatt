@@ -30,7 +30,7 @@ regex = "1.3"
 rss = { version = "1.9", optional = true }
 lazy_static = "1.4"
 chrono = "0.4"
-dtparse = "1.3"
+dtparse = "1.1"
 wasm-timer = "0.2"
 fnv = "1.0"
 url = "2.1"
